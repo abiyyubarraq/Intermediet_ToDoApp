@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended: false}))
 
 
 //connect to my mongodb
-let connectionString = 'mongodb+srv://todoInterUser:asubagus00@cluster0.jliuc.mongodb.net/TodoApp?retryWrites=true&w=majority'
+let connectionString = //your mongodb connect string here
 mongodb.connect(connectionString, {useNewUrlParser: true, useUnifiedTopology: true}, function(err, client) {
   db = client.db()
   app.listen(3000)
