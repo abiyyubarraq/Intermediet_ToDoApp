@@ -1,10 +1,10 @@
 # Intermediet_ToDoApp
 
-require tools
+require tools:
 
 npm install express
 npm install mongodb
 
-additional tool
+additional tool:
 
 npm install nodemon
